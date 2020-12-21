@@ -70,6 +70,15 @@ let numClicks = 0;
 let choice1;
 let choice2;
 
+///
+
+localStorage.setItem("option1", false);
+console.log(JSON.parse(localStorage.getItem("option1")));
+
+
+///
+
+
 function handleCardClick(event) 
 {
 	 if(event.target.className !== "matched") 
